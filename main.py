@@ -67,7 +67,7 @@ def main():
     # Data loading
     print('\n==> Load data..')
     train_loader, val_loader = DataLoader(args.batch_size, args.workers,
-                                          args.dataset, args.datapath,
+                                          args.datapath,
                                           args.cuda)
 
     # for evaluation
