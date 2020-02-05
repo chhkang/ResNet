@@ -45,5 +45,5 @@ def cifar100_loader(batch_size, num_workers, datapath, cuda):
 
     return train_loader, val_loader
 
-def DataLoader(batch_size, num_workers, dataset='cifar10', datapath='../data', cuda=True):
+def DataLoader(batch_size, num_workers, datapath='../data', cuda=True):
     return cifar100_loader(batch_size, num_workers, datapath, cuda)
